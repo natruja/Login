@@ -1,16 +1,11 @@
-<?php namespace man\Controllers;
-/**
-*
-*/
-class Hoem
+<?php
+class Home
 {
-
-  function  index()
+  public function index()
   {
-    if(1){
+    if (1) {
       return 'It is true';
     }
     return 1;
   }
 }
-?>
