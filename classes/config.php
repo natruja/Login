@@ -11,7 +11,6 @@
                          $config = $config[$bit];
                     }
                 }
-
                 return $config;
             }
         }
