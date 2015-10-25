@@ -8,8 +8,13 @@
 				'password' => '',
 				'db' => 'ro10_main'
 				),
+			'remember' => array(
+				'cookie_name' => 'hash',
+				'cokkie_expiry' => 604800
+			),
 			'session' => array(
-				'session_name' => 'user'
+				'session_name' => 'user',
+				'token_name' => 'token'
 				)
 		);
 	 
